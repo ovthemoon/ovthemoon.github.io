@@ -1,9 +1,7 @@
 {
   "homepage": "https://ovthemoon.github.io",
-  "scripts":{
+  "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "dependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
